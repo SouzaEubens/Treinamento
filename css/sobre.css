@@ -1,0 +1,41 @@
+body{
+    
+    /* configura a familia de fontes usadas na pagina*/
+    font-family: "Lucida Sans Unicode",	"Lucida	Grande", sans-serif;
+    
+    /*Configura a cor da letras da pagina */
+    color: #333333;
+
+}
+
+h1{
+    /* adiciona uma imagem de fundo  ao texto de H1*/
+    background-image: url(../img/sobre-background.jpg);
+}
+
+h2{
+    /*adiciona uma borda fina na parte superior dos subtitulos ( espessura, forma, cor)*/
+    border-bottom: 0.1em solid #333333;
+}
+
+figure{
+    
+    /*adicionado um fundo colorido a aréa das imagens*/
+     background-color: #f2eded;
+
+    /*adiciona uma borda à aréa da foto*/
+    border: 0.1 solid #ccc;
+
+    /* alinha o texto ao centro */
+    text-align: center;
+}
+
+figcaption{
+    
+    /*coloca o texto da legenda em italico*/
+    font-style: italic;
+}
+
+p{
+    text-align: justify;
+}
